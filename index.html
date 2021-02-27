@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin Garrix</title>
     <link rel="stylesheet" href="./artista.css" />
+    <STYLE>A {text-decoration: none;} </STYLE>
 </head>
 <body>
     <div class="linea"></div>
@@ -13,13 +14,13 @@
     <!--Barra superior-->
     <div class="encabezado">
         <div class="logo">
-            <a href="index.html"><img width="120" height="100" src="./img/logo este.png"</a> 
+            <a href="index.html"><img width="120" height="100" src="./img/logo este.png" onclick="descripcion()"></a> 
         </div>
 
         <div class="links">
             <table>
                 <tr>
-                    <td><a href="https://www.last.fm/es/music/Martin+Garrix/+albums" target="_blank">Albumes</a></td>
+                    <td><a href="https://juan-2104.github.io/Albumes/" target="_blank">Albumes</a></td>
                     <td><a href="https://es.qaz.wiki/wiki/List_of_awards_and_nominations_received_by_Martin_Garrix" target="_blank">Premios</a></td>
                     <td><a href="https://open.spotify.com/artist/60d24wfXkVzDSfLS6hyCjZ?si=_ZFUJvW9TAOCQkW45Ax57Q" target="_blank">Escucharlo</a></td>
             </table>
@@ -34,20 +35,43 @@
     <div class="inicio">
         <table>
             <tr>
-                <td><a href="index.html"><img height="400" width="350" src="img/final.png"></a></td>
-                <td>¿Quién es?</td>
-                <td><a href="index.html"><img height="200" width="200" src="img/martino titulo.jpg"></a></td>
+                <td><a href="index.html"><img height="400" width="350" src="img/final.png" onclick="info1()"></a></td>
+                <td class="prueba2">¿Quién es?</td>
+                <td class="prueba"><a href="index.html"><img height="200" width="300" src="img/martino titulo.jpg" onclick="info2()"></a></td>
         </table>
     </div>
     <!-- Fin inicio-->
     <div class="linea3"></div>
-    <!--Biografía-->
-    <div class="medio">
-        <h1>Biografía</h1>
-        <p><br>Martijn Gerard Garritsen, conocido en el medio musical como Martin Garrix, es un DJ y productor neerlandés.
-        Nació en Amstelveen, Países Bajos, el 14 de mayo de 1996. Se dio a conocer internacionalmente con el sencillo
-        "Animals", editado a mediados de 2013, con respaldo de la discográfica Spinnin' Records. La canción fue número
-        uno en Bélgica y Reino Unido, ocupó la tercera posición en Irlanda y también resultó muy exitosa en otros países.
-        </p>
+<!--Inicio info-->
+    <div class="info">
+        <p class="parrafo">
+        <br>Martin Garrix (14 de mayo de 1996) DJ, productor y fundador del sello STMPD RCRDS. Nació en la localidad
+        de Amstelveen, Países Bajos. Su nombre de nacimiento es Martijn Gerard Garritsen. Desde la infancia demostró 
+        su gusto por la música, y a los 8 años aprendió a tocar la guitarra. <br> <br> Garrix fue descubierto por Tiësto,
+        el cual Garrix considera como una inspiración y un músico legendario.  Tuvo sus inicios con las canciones “BFAM”,
+        una colaboración con el DJ holandés Julian Jordan, y “Just Some Loops”, una colaboración con TV Noise. En el
+        documental Lo que hemos comenzado (What We Started), Garrix describe cómo fue descubierto por la discográfica
+        holandesa llamada Spinnin’ Records, posterior al lanzamiento de su remix de “Tonight (Im Loving You) de Enrique
+        Iglesias. Firmó su contrato con la discográfica en 2012, lanzando así “Error 404” una colaboración con el DJ 
+        holandés Jay Hardway. En 2013, Garrix lanzó “Torrent” con la DJ Sidney Samson en el Musical Freedom de Tiësto.
+        Garrix fue descubierto por Tiësto, el cual Garrix considera como una inspiración y un músico legendario.
+        Tuvo sus inicios con las canciones “BFAM”, una colaboración con el DJ holandés Julian Jordan, y “Just Some
+        Loops”, una colaboración con TV Noise. En el documental Lo que hemos comenzado (What We Started), Garrix
+        describe cómo fue descubierto por la discográfica holandesa llamada Spinnin’ Records, posterior al lanzamiento de
+        su remix de “Tonight (Im Loving You) de Enrique Iglesias. Firmó su contrato con la discográfica en 2012, lanzando
+        así una colaboración con el DJ holandés Jay Hardway. En 2013, Garrix lanzó “Torrent” con la DJ Sidney Samson en el 
+        Musical Freedom de Tiësto.</p>
     </div>
+<!--Fin info-->
+<!--Inicio foto-->
+    <div class="fotoInfo">
+        <a href="index.html"><img width="800" height="auto" src="img/info.jpg" onclick="info3()"></a>
+    </div>
+<!--Fin Foto-->
+<!--Inicio footer-->
+    <footer class="footer">
+        &copy; Desarrollada por Juan Camilo González Medina  BIT-Bogotá Institute of Technólogy.
+    </footer>
+<!--Fin footer-->
+    <script src="artista.js"></script>
 </html>
